@@ -56,6 +56,7 @@ os.execlp('openssl', 'openssl', 's_server', '-accept', str(args.port), '-cert', 
 ```
 
 Using `ls -a` also shows some interesting files:
+
 ![Alt text](../images/task_a2_dir_listing.png "Terminal showing directory listing and bash_history file.")
 
 This tells us we are looking for a file called tools.tar in the session file. There is also a .cert.pem that would allow for decrypting the TLS traffic in wireshark. With this information, finding the username is pretty trivial with some basic wireshark knowledge. First, the cert.pem file is added to the TLS RSA keys:
