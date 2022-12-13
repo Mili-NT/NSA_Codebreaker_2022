@@ -12,7 +12,7 @@ The FBI hopes that these tools may provide a clue to the attacker's identity.
 ### Task Goal:
 - username of the account the attacker used when they built their tools
 ## Steps:
-The provided archive provides some context for what we're looking for in the pcap file. It contains a python fileshowing the method they used to download the tools:
+The provided archive provides some context for what we're looking for in the pcap file. It contains a python file showing the method they used to download the tools:
 
 ```python
 #!/usr/bin/env python3
