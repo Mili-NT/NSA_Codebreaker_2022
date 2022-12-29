@@ -17,5 +17,4 @@ Rethinking the method of attack helped: since the credentials were acquired by p
 
 ![Alt text](../images/task_a1.png "Spreadsheet open in sc-im with sessions displayed.")
 
-Sure enough this turned out to be correct:
 ![Alt text](../images/badgea1.png "Badge for task A1")
