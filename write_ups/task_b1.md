@@ -67,4 +67,7 @@ function get_str_list() {
 }
 ```
 
-To fully reconstruct the URL, the other portions obfuscated away in functions have to be reverse engineering.
+To fully reconstruct the URL, we can either reverse engineer all the functions called in getJSON or run them in the browser console after loading connect.js. Considering each function only serves to obfuscate away an index for the string list, it's easiest
+to simply run them and reconstruct the full URL: https://wiybrlehcuuflsbz.ransommethis.net/
+
+![Alt text](../images/badgeb1.png "Task b1 badge.")
