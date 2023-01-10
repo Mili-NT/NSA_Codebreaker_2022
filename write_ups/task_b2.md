@@ -86,6 +86,6 @@ def pathkey_route(pathkey, path):
 
 This makes the login URL https://wiybrlehcuuflsbz.ransommethis.net/yijcwjpcebqqaszt/login
 
-![Alt text](../images/task_b2_login.png "Screenshot of the successfully accessed login page.")
+![Alt text](../images/task_b2_login.png "Screenshot showing the successfully accessed login page.")
 
 ![Alt text](../images/badgeb2.png "Task b2 completion badge.")
