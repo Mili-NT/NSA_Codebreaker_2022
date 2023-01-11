@@ -61,6 +61,6 @@ def decode_token(token):
 Using decode_token() on the token in the netscape cookie gives us the two claims for our compromised user:
 
 ![Alt text](../images/task_6_decoded.png "Screenshot of a python terminal showing the decode_token function in use")
-Then we can either use the create_token function with the discovered claims or I wrote a function to simply refresh a given token.
+Then we can either use the create_token function with the discovered claims, or simply use the refresh_token function to fix the exp and iat claims.
 
 ![Alt text](../images/badge6.png "Badge for task 6")
