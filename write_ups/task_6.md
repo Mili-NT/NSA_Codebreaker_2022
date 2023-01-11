@@ -63,4 +63,6 @@ Using decode_token() on the token in the netscape cookie gives us the two claims
 ![Alt text](../images/task_6_decoded.png "Screenshot of a python terminal showing the decode_token function in use")
 Then we can either use the create_token function with the discovered claims, or simply use the refresh_token function to fix the exp and iat claims.
 
+![Alt text](../images/task_6_refresh.png "Screenshot of a python terminal with code for refreshing a JWT token.")
+
 ![Alt text](../images/badge6.png "Badge for task 6")
