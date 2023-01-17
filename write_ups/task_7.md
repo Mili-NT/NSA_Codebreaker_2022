@@ -12,7 +12,7 @@ Generate a new token value which will allow you to access the ransomware site as
 The goal of this task is to find the sec and uid claims for an admin account, so the first step is to find a target.
 Conveniently, there is a page called adminlist.html that lists former and currently online admins:
 
-![Alt text](../images/task_7_adminlist "A screenshot of the website showing the admin list.")
+![Alt text](../images/task_7_adminlist.png "A screenshot of the website showing the admin list.")
 
 We know from the site's code that we gained access to in task b2 how tokens are created:
 
